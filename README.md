@@ -1,4 +1,4 @@
-# amd-to-es6 codemod
+# amd-to-es6-codemod
 
 Codemod for converting AMD require-statements to ES6 imports statements. The code isn't battle-tested, so I would recommend using https://github.com/buxlabs/amd-to-es6 instead.
 
