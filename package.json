@@ -1,0 +1,20 @@
+{
+  "name": "amd-to-es6-codemod",
+  "description": "Codemod that allows you to transform your js code from AMD to to ES6 imports.",
+  "main": "test.js",
+  "scripts": {
+    "preversion": "npm test",
+    "test": "eslint . && mocha"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jscodeshift": "^0.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "mocha": "^6.0.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
